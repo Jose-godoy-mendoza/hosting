@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600&display=swap');
 
 :root{
-    --green:#27ae60;
+    --green:#3D0000;
     --dark-color:#219150;
     --black:#444;
     --light-color:#666;
@@ -131,7 +131,7 @@ section{
 }
 
 .header .header-1 .search-form label:hover{
-    color:var(--green);
+    color:#FF0000;
 }
 
 .header .header-1 .icons div,
@@ -285,7 +285,7 @@ section{
 }
 
 .home{
-    background: url(../image/banner-bg.jpg) no-repeat;
+    background: url(../image/Forja.jpeg) no-repeat;
     background-size: cover;
     background-position: center;
 }
@@ -453,7 +453,7 @@ section{
 }
 
 .newsletter{
-    background:url(../image/letter-bg.jpg) no-repeat;
+    background:url(../image/taller_medieval.jpg) no-repeat;
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
