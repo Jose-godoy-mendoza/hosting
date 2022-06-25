@@ -2,7 +2,7 @@
 
 :root{
     --green:#3D0000;
-    --dark-color:#219150;
+    --dark-color:#FF0000;
     --black:#444;
     --light-color:#666;
     --border:.1rem solid rgba(0,0,0,.1);
@@ -375,7 +375,7 @@ section{
 
 .featured .featured-slider .box .image{
     padding:1rem;
-    background: linear-gradient(15deg, #eee 30%, #fff 30.1%);
+    background: linear-gradient(15deg, #950101 30%, #fff 30.1%);
 }
 
 .featured .featured-slider .box:hover .image{
