@@ -6,7 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Plantilla de proyecto</title>
 
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        
+        <!--<link rel="stylesheet" href="css/maincss.css" type="text/css" media="all">-->
+        <link rel="stylesheet" href="css/estilos_menu.css" type="text/css" media="all">
 
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
@@ -34,15 +40,6 @@
 
 <header class="header">
 
-    <div class="header-1">
-
-        <a href="#" class="logo"> <i class="fas fa-book"></i> LOGO </a>
-
-        <form action="" class="search-form">
-            <input type="search" name="" placeholder="search here..." id="search-box">
-            <label for="search-box" class="fas fa-search"></label>
-        </form>
-
         <div class="icons">
             <div id="search-btn" class="fas fa-search"></div>
             <a href="#" class="fas fa-heart"></a>
@@ -50,15 +47,12 @@
             <div id="login-btn" class="fas fa-user"></div>
         </div>
 
-    </div>
-
     <div class="header-2">
         <nav class="navbar">
-            <a href="#home">home</a>
-            <a href="#featured">featured</a>
-            <a href="#arrivals">arrivals</a>
-            <a href="#reviews">reviews</a>
-            <a href="#blogs">blogs</a>
+            <a href="#home">Inicio</a>
+            <a href="#featured">Productos</a>
+            <a href="#arrivals">Lo Más Nuevo</a>
+            <a href="#reviews">Reseñas</a>
         </nav>
     </div>
 
@@ -67,14 +61,44 @@
 <!-- header section ends -->
 
 <!-- bottom navbar  -->
+<header> <!--Aquí se encuentra el boton para desplazar el menu lateral-->
+    <div class="icono__menu">
+        <i class="fa-solid fa-bars" id="btn__open"></i>
+    </div>
+</header>
 
-<nav class="bottom-navbar">
-    <a href="#home" class="fas fa-home"></a>
-    <a href="#featured" class="fas fa-list"></a>
-    <a href="#arrivals" class="fas fa-tags"></a>
-    <a href="#reviews" class="fas fa-comments"></a>
-    <a href="#blogs" class="fas fa-blog"></a>
-</nav>
+<div class="menu__side" id="menu__side">
+    <div class="name__page">
+        <i class="fa-solid fa-hammer"></i>
+        <h4>Estructuras Godoy</h4>
+    </div>
+
+    <div class="options__menu">
+        <a href="index.html" class="selected">
+            <div class="option">
+                <i class="fas fa-home" title="Inicio"></i>
+                <h4>Inicio</h4>
+            </div>
+        </a>
+
+        <a href="catalogo.html">
+            <div class="option">
+                <i class="fa-solid fa-shop" title="Catalogo"></i>
+                <h4>Catalogo</h4>
+            </div>
+        </a>
+
+        <a href="historia.html">
+            <div class="option">
+                <i class="fa-solid fa-book" title="Historia"></i>
+                <h4>Historia</h4>
+            </div>
+        </a>
+
+    </div>
+</div>
+
+
 
 <!-- login form  -->
 
@@ -167,19 +191,18 @@
     <div class="icons">
         <i class="fas fa-redo-alt"></i>
         <div class="content">
-            <h3>easy returns</h3>
-            <p>10 days returns</p>
+            <h3>Titulo</h3>
+            <p>texto</p>
         </div>
     </div>
 
     <div class="icons">
         <i class="fas fa-headset"></i>
         <div class="content">
-            <h3>24/7 support</h3>
-            <p>call us anytime</p>
+            <h3>Titulo</h3>
+            <p>Texto</p>
         </div>
     </div>
-
 </section>
 
 
@@ -238,7 +261,7 @@
                         <img src="https://img.myipadbox.com/upload/store/product_l/TBD0536690503.jpg" alt="">
                     </div>
                     <div class="content">
-                        <h3>featured books</h3>
+                        <h3>Titulo</h3>
                         <div class="price">$15.99 <span>$20.99</span></div>
                         <a href="#" class="btn">add to cart</a>
                     </div>
@@ -254,8 +277,8 @@
                         <img src="https://i.pinimg.com/550x/d3/c5/17/d3c517b80db48945dd6bf4d679daa1ec.jpg" alt="">
                     </div>
                     <div class="content">
-                        <h3>featured books</h3>
-                        <div class="price">$15.99 <span>$20.99</span></div>
+                        <h3>Titulo</h3>
+                        <div class="price">Q100 <span>Q160</span></div>
                         <a href="#" class="btn">add to cart</a>
                     </div>
                 </div>
@@ -270,7 +293,7 @@
                         <img src="https://i.pinimg.com/550x/86/85/91/868591a8de7ec34217feef07ea9996e3.jpg" alt="">
                     </div>
                     <div class="content">
-                        <h3>featured books</h3>
+                        <h3>Titulo</h3>
                         <div class="price">$15.99 <span>$20.99</span></div>
                         <a href="#" class="btn">add to cart</a>
                     </div>
@@ -286,7 +309,7 @@
                         <img src="https://i.pinimg.com/736x/7e/d2/70/7ed270a8fda5ff2d903a4bad5865931e.jpg" alt="">
                     </div>
                     <div class="content">
-                        <h3>featured books</h3>
+                        <h3>Titulo</h3>
                         <div class="price">$15.99 <span>$20.99</span></div>
                         <a href="#" class="btn">add to cart</a>
                     </div>
@@ -330,7 +353,7 @@
 
 <section class="arrivals" id="arrivals">
 
-    <h1 class="heading"> <span>new arrivals</span> </h1>
+    <h1 class="heading"> <span>Lo Más Nuevo</span> </h1>
 
     <div class="swiper arrivals-slider">
 
@@ -526,28 +549,13 @@
 
 <!-- deal section starts  -->
 
-<section class="deal">
-
-    <div class="content">
-        <h3>deal of the day</h3>
-        <h1>upto 50% off</h1>
-        <p>fabricamos cualquier tipo de mueble que nos soliciten.</p>
-        
-    </div>
-
-    <div class="image">
-        <img src="image/deal-img.jpg" alt="">
-    </div>
-
-</section>
-
 <!-- deal section ends -->
 
 <!-- reviews section starts  -->
 
 <section class="reviews" id="reviews">
 
-    <h1 class="heading"> <span>client's reviews</span> </h1>
+    <h1 class="heading"> <span>Reseñas de Clientes</span> </h1>
 
     <div class="swiper reviews-slider">
 
@@ -640,74 +648,7 @@
 
 <!-- blogs section starts  -->
 
-<section class="blogs" id="blogs">
 
-    <h1 class="heading"> <span>our blogs</span> </h1>
-
-    <div class="swiper blogs-slider">
-
-        <div class="swiper-wrapper">
-
-            <div class="swiper-slide box">
-                <div class="image">
-                    <img src="image/blog-1.jpg" alt="">
-                </div>
-                <div class="content">
-                    <h3>blog title goes here</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio, odio.</p>
-                    <a href="#" class="btn">read more</a>
-                </div>
-            </div>
-
-            <div class="swiper-slide box">
-                <div class="image">
-                    <img src="image/blog-2.jpg" alt="">
-                </div>
-                <div class="content">
-                    <h3>blog title goes here</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio, odio.</p>
-                    <a href="#" class="btn">read more</a>
-                </div>
-            </div>
-
-            <div class="swiper-slide box">
-                <div class="image">
-                    <img src="image/blog-3.jpg" alt="">
-                </div>
-                <div class="content">
-                    <h3>blog title goes here</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio, odio.</p>
-                    <a href="#" class="btn">read more</a>
-                </div>
-            </div>
-
-            <div class="swiper-slide box">
-                <div class="image">
-                    <img src="image/blog-4.jpg" alt="">
-                </div>
-                <div class="content">
-                    <h3>blog title goes here</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio, odio.</p>
-                    <a href="#" class="btn">read more</a>
-                </div>
-            </div>
-
-            <div class="swiper-slide box">
-                <div class="image">
-                    <img src="image/blog-5.jpg" alt="">
-                </div>
-                <div class="content">
-                    <h3>blog title goes here</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio, odio.</p>
-                    <a href="#" class="btn">read more</a>
-                </div>
-            </div>
-
-        </div>
-
-    </div>
-
-</section>
 
 <!-- blogs section ends -->
 
@@ -746,7 +687,7 @@
                             <a href="#" title="Google+" target="_blank"><i class="fa fa-google-plus"></i></a>
                             <a href="#" title="LinkedIn+" target="_blank"><i class="fa fa-linkedin"></i></a>
                             <a href="#" title="Dribbble" target="_blank"><i class="fa fa-dribbble"></i></a>
-                          </div>
+                        </div>
                     </div>
                 </div>
                 <p class="copyright">Estructuras Godoy © 2022</p>

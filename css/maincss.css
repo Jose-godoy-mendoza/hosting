@@ -1,0 +1,21 @@
+.imagen_fondo{
+    background-image: url(../img/herr2.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: content-box;
+}
+
+.titulo{
+    color: azure;
+    text-align: center;
+    padding-top: 4em;
+    font-style: oblique;
+}
+
+.mucho_texto{
+    color: azure;
+    text-align: center;
+    padding-top: 1em;
+    font-style: oblique;
+}
